@@ -64,7 +64,7 @@ html {
 
 .section {
   background-color: #292e36;
-  padding: 20px 60px 80px;
+  padding: 20px 60px 9px;
 }
 
 .links {
@@ -490,10 +490,10 @@ html {
   letter-spacing: 0.2px;
 }
 
-.ttexts p{
-font-family: "Josefin Sans";
-padding: 2px;
-margin: 20px;
+.ttexts p {
+  font-family: "Josefin Sans";
+  padding: 2px;
+  margin: 20px;
 }
 
 .t-cards {
@@ -508,4 +508,159 @@ margin: 20px;
 }
 .natasha h4 {
   color: #e1b168;
+}
+
+.fullrasm {
+  background-image: url(images/11798cb370eac4ab2464a332476701dd939c2140.jpg);
+  background-attachment: fixed;
+  background-position: 50%;
+  background-size: cover;
+  height: 600px;
+}
+
+.offers {
+  padding-block: 140px 80px;
+}
+
+.otexts {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.otexts h3 {
+  text-decoration: 1px underline overline solid #e8b84b;
+  font-family: "Josefin Sans";
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.otexts h1 {
+  font-family: "Cormorant Infant";
+  letter-spacing: 0.2px;
+  size: 40px;
+  color: #292e36;
+}
+
+.otexts p {
+  font-family: "Josefin Sans";
+  color: #555555;
+}
+
+.imgs img {
+  margin: 20px;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+.menu2 {
+  padding-top: 40px;
+  padding-bottom: 100px;
+}
+.mtexts {
+  text-align: center;
+  font-size: 25px;
+}
+
+.mtexts h3 {
+  text-decoration: 1px underline overline solid #e8b84b;
+  font-family: "Josefin Sans";
+  color: #292e36;
+  font-size: 22px;
+}
+
+.mtexts h1 {
+  font-family: "Cormorant Infant";
+  color: #292e36;
+}
+
+.mtexts {
+  color: #555555;
+  font-family: "Josefin Sans";
+}
+
+.m_imgs {
+  display: flex;
+}
+
+.imgtexts {
+  padding: 20px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.imgtexts img {
+  vertical-align: middle;
+  max-width: 100%;
+  display: inline-block;
+}
+.imgtexts p {
+  font-family: "Josefin Sans";
+  color: #555555;
+}
+
+.hla {
+  display: flex;
+  gap: 90px;
+  color: #292e36;
+  font-size: 30px;
+  font-family: "Cormorant Infant";
+}
+
+.menu-btn {
+  color: #e1b168;
+  text-decoration: none;
+  border: 1px solid #e1b168;
+  padding: 20px 60px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  background-color: #fff;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
+.menu-btn:hover {
+  background-color: #e1b168;
+  color: #000;
+}
+
+.service {
+  background-color: #292e36;
+  display: flex;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  justify-content: space-between;
+  color: #ffffff;
+  align-items: center;
+  grid-column: 5;
+}
+.st {
+  text-align: left;
+  padding-bottom: 10px;
+  font-size: 19px;
+  display: grid;
+}
+.st h3 {
+  text-decoration: 1px solid #caa162 overline underline;
+  font-family: "Josefin Sans";
+}
+
+.st h1 {
+  font-family: "Cormorant Infant";
+}
+
+.st p {
+  font-family: "Josefin Sans";
+}
+
+.scards {
+  border: 20px solid #323841;
+  padding: 45px 30px 30px;
+  font-size: 25px;
+  font-family: "Cormorant Infant";
+  align-items: center;
+  justify-content: space-between;
 }
