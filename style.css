@@ -592,6 +592,11 @@ html {
   align-items: center;
 }
 
+/* .imgtexts h4{
+  justify-content: space-between;
+  align-items: center;
+} */
+
 .imgtexts img {
   vertical-align: middle;
   max-width: 100%;
@@ -608,6 +613,14 @@ html {
   color: #292e36;
   font-size: 30px;
   font-family: "Cormorant Infant";
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+
+.hla h4 {
+  font-size: 25px;
 }
 
 .menu-btn {
@@ -668,4 +681,44 @@ html {
   font-family: "Cormorant Infant";
   align-items: center;
   justify-content: space-between;
+}
+
+.card1 img {
+  width: 640px;
+  height: 384px;
+  gap: 30px;
+}
+.card1 {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card1 img ::hover {
+  background-color: #000000a6;
+  justify-content: center;
+}
+
+.btexts {
+  text-align: center;
+}
+
+.btexts h1 {
+  font-family: "Cormorant Infant";
+  color: #292e36;
+  letter-spacing: 0.2px;
+}
+
+.btexts h3 {
+  font-family: "Josefin Sans";
+  color: #292e36;
+  text-decoration: 1px solid #E5BB7B overline underline;
+  letter-spacing: 3px;
+}
+
+.btexts p {
+  font-family: "Josefin Sans";
+  color: #555555;
 }
