@@ -635,9 +635,14 @@ html {
   justify-content: space-between;
   color: #ffffff;
   align-items: center;
-  grid-column: 5;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr;
 }
 .st {
+  padding: 10px;
+  margin: 10px;
   text-align: left;
   padding-bottom: 10px;
   font-size: 19px;
@@ -658,8 +663,8 @@ html {
 
 .scards {
   border: 20px solid #323841;
-  padding: 45px 30px 30px;
-  font-size: 25px;
+  padding: 45px 65px 30px;
+  font-size: 21px;
   font-family: "Cormorant Infant";
   align-items: center;
   justify-content: space-between;
