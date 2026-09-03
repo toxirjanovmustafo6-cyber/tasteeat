@@ -207,7 +207,7 @@ html {
 .hero_section > img[alt="orqadagi rasm"] {
   position: absolute;
   top: 25%;
-  right: -25px;
+  right: -2px;
   transform: translateY(-50%);
   width: 250px;
   z-index: 1;
@@ -714,11 +714,49 @@ html {
 .btexts h3 {
   font-family: "Josefin Sans";
   color: #292e36;
-  text-decoration: 1px solid #E5BB7B overline underline;
+  text-decoration: 1px solid #e5bb7b overline underline;
   letter-spacing: 3px;
 }
 
 .btexts p {
   font-family: "Josefin Sans";
   color: #555555;
+}
+
+.card2 img {
+  width: 600px;
+  height: 384px;
+  gap: 30px;
+}
+.card2 {
+  display: flex;
+  padding: 20px;
+  margin: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card2 img ::hover {
+  background-color: #000000a6;
+  justify-content: center;
+}
+
+.imgcard {
+  display: flex;
+}
+.c1texts h3 {
+  text-transform: uppercase;
+  text-decoration: underline overline 1px solid #e1b168;
+  font-family: "Josefin Sans" sans-serif;
+  letter-spacing: 3px;
+  line-height: 22.5px;
+}
+.c1texts h33 {
+  text-transform: uppercase;
+  text-decoration: underline overline 1px solid #e1b168;
+  font-family: "Josefin Sans" sans-serif;
+  letter-spacing: 3px;
+  line-height: 22.5px;
+}
+.c1texts {
 }
