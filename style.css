@@ -592,11 +592,6 @@ html {
   align-items: center;
 }
 
-/* .imgtexts h4{
-  justify-content: space-between;
-  align-items: center;
-} */
-
 .imgtexts img {
   vertical-align: middle;
   max-width: 100%;
@@ -743,6 +738,7 @@ html {
 
 .imgcard {
   display: flex;
+  align-items: center;
 }
 .c1texts h3 {
   text-transform: uppercase;
@@ -750,6 +746,8 @@ html {
   font-family: "Josefin Sans" sans-serif;
   letter-spacing: 3px;
   line-height: 22.5px;
+  font-size: 15px;
+  color: #292E36;
 }
 .c1texts h33 {
   text-transform: uppercase;
@@ -757,5 +755,6 @@ html {
   font-family: "Josefin Sans" sans-serif;
   letter-spacing: 3px;
   line-height: 22.5px;
+  
 }
- 
+
