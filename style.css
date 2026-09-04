@@ -540,7 +540,6 @@ html {
 .otexts h1 {
   font-family: "Cormorant Infant";
   letter-spacing: 0.2px;
-  size: 40px;
   color: #292e36;
 }
 
@@ -689,12 +688,55 @@ html {
   align-items: center;
   justify-content: space-between;
 }
-
-.card1 img ::hover {
-  background-color: #000000a6;
-  justify-content: center;
+.card-image-wrapper {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  display: block;
 }
-
+.card-image-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+.imagehover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+.hoverdagibtn {
+  display: inline-block;
+  padding: 18px 45px;
+  background-color: #e5bb7b;
+  color: #292e36;
+  text-decoration: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.2s ease;
+}
+.view-more-btn:hover {
+  background-color: #d1a66a;
+}
+.card-image-wrapper:hover .imagehover {
+  opacity: 1; 
+  pointer-events: auto; 
+}
+.card-image-wrapper:hover img {
+  transform: scale(1.03); 
+}
 .btexts {
   text-align: center;
 }
@@ -774,4 +816,5 @@ html {
   border-top: 1px #000;
   margin-top: 0;
   padding: 50px 25px 32px;
+
 }
