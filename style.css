@@ -684,7 +684,6 @@ html {
   gap: 30px;
 }
 .card1 {
-  display: flex;
   padding: 20px;
   margin: 20px;
   align-items: center;
@@ -747,14 +746,32 @@ html {
   letter-spacing: 3px;
   line-height: 22.5px;
   font-size: 15px;
-  color: #292E36;
+  color: #292e36;
 }
-.c1texts h33 {
-  text-transform: uppercase;
-  text-decoration: underline overline 1px solid #e1b168;
-  font-family: "Josefin Sans" sans-serif;
+.c1texts {
+  display: flex;
+  gap: 20px;
+  font-family: "Josefin Sans";
+  color: #292e36;
+  font-size: 15px;
   letter-spacing: 3px;
-  line-height: 22.5px;
-  
 }
 
+.c1texts2 h1 {
+  font-family: "Cormorant Infant";
+  font-size: 30px;
+  letter-spacing: 0.2px;
+  color: #292e36;
+}
+.c1texts2 p {
+  font-family: "Josefin Sans" sans-serif;
+  font-size: 15px;
+  letter-spacing: 0.2px;
+  color: #555555;
+}
+.cardtexts {
+  border: 1px solid #c4c4c4;
+  border-top: 1px #000;
+  margin-top: 0;
+  padding: 50px 25px 32px;
+}
