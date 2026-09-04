@@ -731,11 +731,11 @@ html {
   background-color: #d1a66a;
 }
 .card-image-wrapper:hover .imagehover {
-  opacity: 1; 
-  pointer-events: auto; 
+  opacity: 1;
+  pointer-events: auto;
 }
 .card-image-wrapper:hover img {
-  transform: scale(1.03); 
+  transform: scale(1.03);
 }
 .btexts {
   text-align: center;
@@ -816,5 +816,4 @@ html {
   border-top: 1px #000;
   margin-top: 0;
   padding: 50px 25px 32px;
-
 }
