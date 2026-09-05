@@ -698,7 +698,6 @@ html {
   width: 100%;
   height: auto;
   display: block;
-  transition: transform 0.3s ease;
 }
 .imagehover {
   position: absolute;
@@ -725,7 +724,6 @@ html {
   font-weight: 500;
   letter-spacing: 1px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.2s ease;
 }
 .view-more-btn:hover {
   background-color: #d1a66a;
@@ -733,9 +731,6 @@ html {
 .card-image-wrapper:hover .imagehover {
   opacity: 1;
   pointer-events: auto;
-}
-.card-image-wrapper:hover img {
-  transform: scale(1.03);
 }
 .btexts {
   text-align: center;
