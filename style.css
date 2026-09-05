@@ -829,7 +829,6 @@ html {
   padding: 100px;
   text-align: center;
   font-family: "Josefin Sans";
-
 }
 .regtext h3 {
   color: #ffffff;
@@ -911,16 +910,59 @@ html {
   font-weight: 500;
   cursor: pointer;
 }
-.footer{
-  background-color: #292E36;
+.footer {
+  background-color: #292e36;
 }
-.foothead{
+.foothead {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.foothead h2{
+.foothead h2 {
   font-family: "Josefin Sans";
   font-size: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
+  align-items: center;
+  text-align: center;
+}
+.hikki {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  text-decoration: overline underline 1px solid #e1b168;
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+.huch {
+  font-family: "Josefin Sans";
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  text-align: center;
+}
+.huch input {
+  background-color: #0000;
+  border: 1px solid #858585;
+  min-height: 70px;
+  padding-left: 20px;
+  font-family: "Josefin Sans", sans-serif;
+  min-width: 450px;
+  font-size: 22px;
+  font-weight: 500;
+}
+.huch ::placeholder {
+  color: white;
+}
+.huch button {
+  background-color: #fff;
+  min-height: 68px;
+  padding-left: 55px;
+  padding-right: 55px;
+  font-size: 22px;
+  font-weight: 500;
+  cursor: pointer;
+  min-width: 300px;
+}
+.foothead2 {
+  display: flex;
+  justify-content: space-between;
 }
