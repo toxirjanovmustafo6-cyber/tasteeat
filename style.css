@@ -725,6 +725,12 @@ html {
   letter-spacing: 1px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+.hoverdagibtn:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #e5bb7b;
+  border: 1px solid #e5bb7b;
+  transition: 0.3s;
+}
 .view-more-btn:hover {
   background-color: #d1a66a;
 }
@@ -910,6 +916,11 @@ html {
   font-weight: 500;
   cursor: pointer;
 }
+.rbtn:hover {
+  background-color: #e1b168;
+  color: white;
+  transition: 0.3s;
+}
 .footer {
   background-color: #292e36;
 }
@@ -967,6 +978,12 @@ html {
   justify-content: space-between;
 }
 
-.fh2{
+.fh2 {
   display: flex none;
+}
+
+.h3btn:hover {
+  background-color: #e1b168;
+  color: white;
+  transition: 0.3s;
 }
