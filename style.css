@@ -760,24 +760,6 @@ html {
   color: #555555;
 }
 
-.card2 img {
-  width: 600px;
-  height: 384px;
-  gap: 30px;
-}
-.card2 {
-  display: flex;
-  padding: 20px;
-  margin: 20px;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.card2 img ::hover {
-  background-color: #000000a6;
-  justify-content: center;
-}
-
 .imgcard {
   display: flex;
   align-items: center;
@@ -920,6 +902,7 @@ html {
   background-color: #e1b168;
   color: white;
   transition: 0.3s;
+  border: none;
 }
 .footer {
   background-color: #292e36;
@@ -945,10 +928,11 @@ html {
 }
 .huch {
   font-family: "Josefin Sans";
-  font-size: 20px;
+  font-size: 15px;
   letter-spacing: 0.2px;
   color: #ffffff;
   text-align: center;
+  justify-content: space-between;
 }
 .huch input {
   background-color: #0000;
@@ -956,7 +940,7 @@ html {
   min-height: 70px;
   padding-left: 20px;
   font-family: "Josefin Sans", sans-serif;
-  min-width: 450px;
+  min-width: 550px;
   font-size: 22px;
   font-weight: 500;
 }
@@ -973,9 +957,12 @@ html {
   cursor: pointer;
   min-width: 300px;
 }
-.foothead2 {
+
+.foothead2{
   display: flex;
   justify-content: space-between;
+  padding: 10px;
+
 }
 
 .fh2 {
@@ -987,3 +974,27 @@ html {
   color: white;
   transition: 0.3s;
 }
+.h22 {
+  font-family: "Josefin Sans" sans-serif;
+  font-size: 20px;
+  font-style: "Regular";
+  color: #ffffff;
+}
+.contacts h3 {
+  color: #e1b168;
+  cursor: pointer;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+
+.contacts2 span{
+  color: #E1B168;
+}
+.contacts2 h3{
+color: #FFFFFF;
+}
+
