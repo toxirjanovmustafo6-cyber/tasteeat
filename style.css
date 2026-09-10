@@ -162,7 +162,7 @@ html {
 }
 
 .texts {
-  max-width: 460px;
+  max-width: 560px;
 }
 
 .texts h1 {
@@ -224,12 +224,6 @@ html {
   }
 }
 
-.cards {
-  display: flex;
-  justify-content: space-between;
-  background-color: #fff8f5;
-}
-
 .hero_section > img[alt="ullirasm"] {
   border: 30px solid #ffffff1a;
   border-bottom-style: none;
@@ -237,14 +231,12 @@ html {
   border-top-right-radius: 628px;
 }
 
-.card {
+.cards {
   display: flex;
-  align-items: center;
   justify-content: space-between;
   gap: 5px;
   margin: 50px;
   padding: 50px;
-  flex-direction: column;
 }
 
 .c-text h3 {
@@ -315,6 +307,9 @@ html {
 
   .cards {
     flex-direction: column;
+    text-align: center;
+    align-items: start;
+    gap: none;
   }
 
   .hero_section img {
@@ -525,16 +520,18 @@ html {
 .otexts {
   text-align: center;
   padding-bottom: 10px;
+  font-size: 25px;
 }
 .otexts h3 {
   text-decoration: 1px underline overline solid #e8b84b;
   font-family: "Josefin Sans";
-  letter-spacing: 0.2em;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 22.5px;
+  letter-spacing: 3px;
+  text-align: center;
   text-transform: uppercase;
-  margin-bottom: 0;
-  margin-top: 5px;
-  font-size: 15px;
-  font-weight: 500;
 }
 
 .otexts h1 {
@@ -906,6 +903,7 @@ html {
 }
 .footer {
   background-color: #292e36;
+  padding: 30px;
 }
 .foothead {
   display: flex;
@@ -958,11 +956,10 @@ html {
   min-width: 300px;
 }
 
-.foothead2{
+.foothead2 {
   display: flex;
   justify-content: space-between;
-  padding: 10px;
-
+  padding: 20px;
 }
 
 .fh2 {
@@ -983,7 +980,7 @@ html {
 .contacts h3 {
   color: #e1b168;
   cursor: pointer;
-  font-family: Josefin Sans;
+  font-family: " Josefin Sans";
   font-weight: 400;
   font-style: Regular;
   font-size: 20px;
@@ -991,10 +988,64 @@ html {
   letter-spacing: 0.2px;
 }
 
-.contacts2 span{
-  color: #E1B168;
+.contacts2 span {
+  color: #e1b168;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: right;
 }
-.contacts2 h3{
-color: #FFFFFF;
+.contacts2 h3 {
+  color: #ffffff;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  text-align: right;
+}
+.lastfooter {
+  border-top: 1px solid #575b62;
+  background-color: #292e36;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  padding: 30px;
 }
 
+.ftextss {
+  text-align: left;
+}
+
+.ftextss h1 {
+  color: #ffffff;
+  font-family: "Josefin Sans";
+  font-weight: 400;
+  font-style: "Regular";
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+.ftextss span {
+  color: #e1b168;
+  cursor: pointer;
+}
+.ftexts2 {
+  display: flex;
+  text-align: right;
+  gap: 10px;
+  cursor: pointer;
+}
+.ftexts2 h1 {
+  color: #e1b168;
+  font-family: Josefin Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
