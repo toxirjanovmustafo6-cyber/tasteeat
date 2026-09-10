@@ -3,13 +3,11 @@ html {
   -ms-text-size-adjust: 100%;
   font-family: sans-serif;
 }
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
-
 .header {
   display: flex;
   background-color: #292e36;
@@ -18,7 +16,6 @@ html {
   justify-content: space-between;
   border-bottom: 1px solid #555d6c;
 }
-
 .phone a {
   color: #fff;
   text-decoration: none;
@@ -29,7 +26,6 @@ html {
   display: inline-block;
   transition: all 0.3s ease;
 }
-
 .phone a:hover {
   background-color: #e1b168;
   color: #1c2331;
@@ -37,7 +33,6 @@ html {
 .header-logo img {
   height: 150px;
 }
-
 .h-btn {
   background-color: #e1b168;
   padding: 20px 60px;
@@ -45,28 +40,23 @@ html {
   border: none;
   transition: all 0.3s ease;
 }
-
 .h-btn a {
   text-decoration: none;
   color: #1c2331;
   font-size: 20px;
   letter-spacing: 1px;
 }
-
 .h-btn:hover {
   background-color: #292e36;
   border: 1px solid #e1b168;
 }
-
 .h-btn:hover a {
   color: #e1b168;
 }
-
 .section {
   background-color: #292e36;
   padding: 20px 60px 9px;
 }
-
 .links {
   width: 100%;
   display: flex;
@@ -75,42 +65,34 @@ html {
   padding-top: 20px;
   margin-bottom: 60px;
 }
-
 .a-link {
   display: flex;
   gap: 35px;
 }
-
 .a-link a {
   text-decoration: none;
   color: #fff;
   font-size: 20px;
 }
-
 .a-link a:hover {
   color: #e8b84b;
 }
-
 .icons {
   display: flex;
   gap: 18px;
 }
-
 .icons img {
   width: 20px;
   height: 20px;
 }
-
 .icons {
   display: flex;
   gap: 18px;
 }
-
 .icons a {
   opacity: 0;
   animation: iconFadeIn 0.5s ease forwards;
 }
-
 .icons a:nth-child(1) {
   animation-delay: 0.1s;
 }
@@ -145,7 +127,6 @@ html {
   cursor: pointer;
   border-radius: 2px;
 }
-
 .burger-menu span {
   display: block;
   width: 20px;
@@ -153,7 +134,6 @@ html {
   background-color: #292e36;
   margin: 4px 0;
 }
-
 .hero_section {
   display: flex;
   align-items: center;
@@ -230,7 +210,6 @@ html {
   border-top-left-radius: 628px;
   border-top-right-radius: 628px;
 }
-
 .cards {
   display: flex;
   justify-content: space-between;
@@ -238,57 +217,47 @@ html {
   margin: 50px;
   padding: 50px;
 }
-
 .c-text h3 {
   font-family: "Cormorant Infant";
   color: #292e36;
 }
-
 .c-text p {
   font-family: "Josefin Sans";
   color: #555555;
 }
-
 .story-section {
   display: flex;
   gap: 45px;
   background-color: #fff8f5;
   padding: 10px;
 }
-
 .story-section img {
   margin: 25px;
 }
-
 .story-section h1 {
   font-family: "Cormorant Infant";
   color: #292e36;
   font-size: 40px;
 }
-
 .story-section p {
   font-family: " Josefin Sans";
   color: #555555;
   font-size: 20px;
 }
-
 .storytext2 {
   display: flex;
   gap: 25px;
   padding: 10px;
   margin: 10px;
 }
-
 .stories h1 {
   font-family: "Cormorant Infant";
   color: #292e36;
 }
-
 .storyfooter h1 {
   font-family: "Josefin Sans";
   color: #555555;
 }
-
 @media (max-width: 992px) {
   .header,
   .links,
@@ -298,20 +267,17 @@ html {
     padding-left: 30px;
     padding-right: 30px;
   }
-
   .hero_section,
   .story-section {
     flex-direction: column;
     text-align: center;
   }
-
   .cards {
     flex-direction: column;
     text-align: center;
     align-items: start;
     gap: none;
   }
-
   .hero_section img {
     min-width: 600px;
   }
@@ -630,7 +596,6 @@ html {
   background-color: #e1b168;
   color: #000;
 }
-
 .service {
   background-color: #292e36;
   display: flex;
@@ -656,15 +621,12 @@ html {
   text-decoration: 1px solid #caa162 overline underline;
   font-family: "Josefin Sans";
 }
-
 .st h1 {
   font-family: "Cormorant Infant";
 }
-
 .st p {
   font-family: "Josefin Sans";
 }
-
 .scards {
   border: 20px solid #323841;
   padding: 45px 65px 30px;
@@ -673,7 +635,6 @@ html {
   align-items: center;
   justify-content: space-between;
 }
-
 .card1 img {
   width: 640px;
   height: 384px;
@@ -738,25 +699,21 @@ html {
 .btexts {
   text-align: center;
 }
-
 .btexts h1 {
   font-family: "Cormorant Infant";
   color: #292e36;
   letter-spacing: 0.2px;
 }
-
 .btexts h3 {
   font-family: "Josefin Sans";
   color: #292e36;
   text-decoration: 1px solid #e5bb7b overline underline;
   letter-spacing: 3px;
 }
-
 .btexts p {
   font-family: "Josefin Sans";
   color: #555555;
 }
-
 .imgcard {
   display: flex;
   align-items: center;
@@ -778,7 +735,6 @@ html {
   font-size: 15px;
   letter-spacing: 3px;
 }
-
 .c1texts2 h1 {
   font-family: "Cormorant Infant";
   font-size: 30px;
@@ -797,7 +753,6 @@ html {
   margin-top: 0;
   padding: 50px 25px 32px;
 }
-
 .footer1 {
   background-image: url(/images/footer.png);
   width: 100%;
@@ -840,7 +795,6 @@ html {
   font-size: 22px;
   font-weight: 500;
 }
-
 .registr1 :last-child {
   background-color: #0000;
   border: 1px solid #858585;
@@ -955,17 +909,14 @@ html {
   cursor: pointer;
   min-width: 300px;
 }
-
 .foothead2 {
   display: flex;
   justify-content: space-between;
   padding: 20px;
 }
-
 .fh2 {
   display: flex none;
 }
-
 .h3btn:hover {
   background-color: #e1b168;
   color: white;
@@ -987,7 +938,6 @@ html {
   line-height: 30px;
   letter-spacing: 0.2px;
 }
-
 .contacts2 span {
   color: #e1b168;
   font-family: Josefin Sans;
@@ -1016,11 +966,9 @@ html {
   justify-content: space-between;
   padding: 30px;
 }
-
 .ftextss {
   text-align: left;
 }
-
 .ftextss h1 {
   color: #ffffff;
   font-family: "Josefin Sans";
