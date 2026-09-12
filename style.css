@@ -997,7 +997,7 @@ html {
 	line-height: 30px;
 	letter-spacing: 0.2px;
 }
-/*  */
+
 @media screen and (max-width: 1200px) {
 	.home-menu-section {
 		flex-direction: column;
