@@ -997,3 +997,137 @@ html {
   line-height: 30px;
   letter-spacing: 0.2px;
 }
+
+@media screen and (max-width: 1200px) {
+  .home-menu-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  .ongsection {
+    width: 100%;
+    position: static;
+    text-align: center;
+  }
+  .m_imgs {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .imgtexts {
+    width: 45%;
+  }
+  .service {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 992px) {
+  .t-cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .natasha {
+    width: 45%;
+  }
+  .imgs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgs img {
+    max-width: 90%;
+    height: auto;
+  }
+  .imgcard {
+    flex-direction: column;
+  }
+  .card1 img {
+    width: 100%;
+    height: auto;
+  }
+  .foothead2 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    text-align: center;
+  }
+  .huch input {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 15px 20px;
+  }
+  .phone a,
+  .h-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  .header-logo img {
+    height: 90px;
+  }
+  .hero_section > img[alt="ullirasm"] {
+    width: 100%;
+    border-width: 10px;
+  }
+  .hero_section > img[alt="orqadagi rasm"] {
+    display: none;
+  }
+  .cards {
+    margin: 20px 10px;
+    padding: 10px;
+  }
+  .imgtexts {
+    width: 100%;
+  }
+  .natasha {
+    width: 100%;
+  }
+  .registr1,
+  .registr2 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .registr1 input,
+  .registr2 input {
+    width: 100% !important;
+  }
+  .footer1 {
+    padding: 20px;
+  }
+  .foothead {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .lastfooter {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .texts h1 {
+    font-size: 30px;
+  }
+  .moxito-header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .dots {
+    display: none;
+  }
+  .scards {
+    width: 100%;
+    padding: 20px;
+  }
+  .hla {
+    gap: 20px;
+  }
+}
