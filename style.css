@@ -1,7 +1,6 @@
 html {
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
-	font-family: sans-serif;
 }
 * {
 	padding: 0;
@@ -73,6 +72,7 @@ html {
 	text-decoration: none;
 	color: #fff;
 	font-size: 20px;
+	font-family: sans-serif;
 }
 .a-link a:hover {
 	color: #e8b84b;
@@ -187,7 +187,7 @@ html {
 .hero_section > img[alt='orqadagi rasm'] {
 	position: absolute;
 	top: 25%;
-	right: -2px;
+	right: -2px;+
 	transform: translateY(-50%);
 	width: 250px;
 	z-index: 1;
